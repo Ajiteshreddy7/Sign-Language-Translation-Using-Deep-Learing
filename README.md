@@ -4,6 +4,11 @@ In this project, we use CNN to convert ASL(American Sign Language) into text in 
 
 # Dataset link: https://drive.google.com/drive/folders/1cS1Avu6k7AMiL7OqQQ9itCeU6eSSd8ET?usp=sharing
 
+# Versions used:
+1. Python: 3.11.6
+2. Tensorflow: 2.16.1
+3. MediaPipe: 0.10.11
+
 # Steps to implement the project -->
 1. Install TensorFlow and Mediapipe as these two are more than sufficient because they have all the packages we need to seamlessly execute the code.
 2. Run the collectdata.py and when the camera opens place your hand in the ROI(Region of Interest), then press the alphabet on the keyboard to start capturing the photos.
